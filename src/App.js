@@ -39,11 +39,10 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="" element={<Home />}>
-          <Route path="scholarship" element={<Scholarship />}>
-            <Route path="prenational" element={<Prenational />}></Route>
-            <Route path="preintern" element={<Preintern />}></Route>
-          </Route>
+        <Route path="" element={<Home />} />
+        <Route path="scholarship" element={<Scholarship />}>
+          <Route path="prenational" element={<Prenational />}></Route>
+          <Route path="preintern" element={<Preintern />}></Route>
         </Route>
       </Routes>
 
