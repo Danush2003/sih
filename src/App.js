@@ -39,10 +39,11 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="" element={<Home />}></Route>
-        <Route path="scholarship" element={<Scholarship />}>
-          <Route path="prenational" element={<Prenational />}></Route>
-          <Route path="preintern" element={<Preintern />}></Route>
+        <Route path="" element={<Home />}>
+          <Route path="ghn" element={<Scholarship />}>
+            <Route path="prenational" element={<Prenational />}></Route>
+            <Route path="preintern" element={<Preintern />}></Route>
+          </Route>
         </Route>
       </Routes>
 
@@ -51,7 +52,7 @@ function App() {
         <div>About us</div>
         <div>Terms of Service</div>
         <div>Privacy Policy</div>
-        <div>Connect</div>
+        <div>Contact</div>
         <div>Help</div>
       </div>
     </div>

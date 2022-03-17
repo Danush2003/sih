@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
 
 function Home() {
   return (
@@ -47,7 +48,7 @@ function Home() {
           marginTop: "50px",
         }}
       >
-        <div className="card shadow" style={{ background: "#00B4D8" }}>
+        {/* <div className="card shadow" style={{ background: "#00B4D8" }}>
           <img
             className="card-img-top h-100"
             src="https://media.istockphoto.com/photos/beginning-of-the-school-year-picture-id1332377327?b=1&k=20&m=1332377327&s=170667a&w=0&h=C3YC_aGm0nWSyjY-Ib8tRhNwGPgeYPejS08B4C2lNGI="
@@ -69,6 +70,33 @@ function Home() {
                 style={{ width: "20px", marginRight: "2px" }}
               ></img>
               Search
+            </button>
+          </div>
+        </div> */}
+        <div className="card shadow" style={{ background: "#00B4D8" }}>
+          <img
+            className="card-img-top"
+            src="https://media.istockphoto.com/photos/beginning-of-the-school-year-picture-id1332377327?b=1&k=20&m=1332377327&s=170667a&w=0&h=C3YC_aGm0nWSyjY-Ib8tRhNwGPgeYPejS08B4C2lNGI="
+            alt="Card image cap"
+          />
+          <div className="card-body">
+            <h5
+              className="card-title mb-3"
+              style={{ fontFamily: "serif", fontSize: "30px" }}
+            >
+              Pre-Metric Scholarships
+            </h5>
+            <button
+              className="btn d-block mx-auto text-light"
+              style={{ borderRadius: "10%", background: "#04293A" }}
+            >
+              <img
+                src="https://cdn-icons-png.flaticon.com/128/1086/1086933.png"
+                style={{ width: "20px", marginRight: "2px" }}
+              ></img>
+              <Link className="nav-link" to="scholarship">
+                Search
+              </Link>
             </button>
           </div>
         </div>
