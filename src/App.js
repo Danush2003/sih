@@ -40,7 +40,7 @@ function App() {
 
       <Routes>
         <Route path="" element={<Home />}>
-          <Route path="ghn" element={<Scholarship />}>
+          <Route path="scholarship" element={<Scholarship />}>
             <Route path="prenational" element={<Prenational />}></Route>
             <Route path="preintern" element={<Preintern />}></Route>
           </Route>
