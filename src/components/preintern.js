@@ -109,3 +109,4 @@ function preintern() {
     </div>
   );
 }
+export default preintern;
