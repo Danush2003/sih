@@ -3,42 +3,52 @@ function preintern() {
     {
       title: "Eiffel Excellence Scholarship Programme",
       authority: "France",
+      lin: "https://www.campusfrance.org/en/eiffel-scholarship-program-of-excellence",
     },
     {
       title: "Chevening Scholarships",
       authority: "UK",
+      lin: "https://www.chevening.org/",
     },
     {
       title: "Endeavour Postgraduate Awards",
       authority: "Australia",
+      lin: "https://www.endeavour.edu.au/apply-to-study/",
     },
     {
       title: "British Council Great Scholarships",
       authority: "UK",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "Cornell University Tata Scholarship",
       authority: "USA",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "Ontario Trillium Scholarship",
       authority: "Canada",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "University of Texas Scholarship for male students",
       authority: "USA",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "Iowa State University scholarship for male students",
       authority: "USA",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "American association of university women scholarship",
       authority: "USA",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "Schlumberger Foundation scholarship for women",
       authority: "France",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
   ];
   return (
@@ -100,7 +110,9 @@ function preintern() {
               <h1>{obj.title}</h1>
               <h2>{obj.authority}</h2>
               <button className="btn btn-warning d-flex mx-auto">
-                Know more
+                <a href={obj.lin} target="_blank">
+                  Know More
+                </a>
               </button>
             </div>
           ))}

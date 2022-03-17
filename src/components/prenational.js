@@ -3,46 +3,57 @@ function prenational() {
     {
       title: "ISRO-Young Scientist Programme (YUVIKA) 2022",
       authority: "ISRO",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "Kotak Shiksha Nidhi",
       authority: "Kotak Education Foundation",
+      lin: "https://www.buddy4study.com/page/kotak-shiksha-nidhi",
     },
     {
       title: "CSIR Innovation Award for School Children (CIASC) 2022",
       authority: "Council of Scientific and Industrial Research",
+      lin: "https://www.csir.res.in/csir-innovation-award-school-children-2022-ciasc-2022-last-date-30th-april-2022",
     },
     {
       title: "NSP pre-matric scholarship scheme",
       authority: "Central Government",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "begum hazrat mahal national scholarship",
       authority: "ministry of minority affairs,India",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "SOF Girl Child Scholarship",
       authority: "Science Olympiad foundation",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "Balika Samridhi Yojana (BSY)",
       authority: "Central Government",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "ntr vidyonnathi scheme scholarship",
       authority: "Government of Andhra Pradesh",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "Pre-Matric Scholarship - MINORITY WELFARE DEPARTMENT",
       authority: "minority welfare department,Karnataka",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "Telangana National Means-cum-Merit Scholarship Scheme (NMMSS)",
       authority: "Government of Telangana",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "Notice of Pre-Matric Scholarship for Minorities for FY",
       authority: "Government of Assam",
+      lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
   ];
   return (
@@ -117,7 +128,9 @@ function prenational() {
               <h1>{obj.title}</h1>
               <h2>{obj.authority}</h2>
               <button className="btn btn-warning d-flex mx-auto">
-                Know more
+                <a href={obj.lin} target="_blank">
+                  Know More
+                </a>
               </button>
             </div>
           ))}
