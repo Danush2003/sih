@@ -18,3 +18,7 @@
 .link {
   color: white;
 }
+.footer,
+.navbar {
+  background-color: darkgray;
+}

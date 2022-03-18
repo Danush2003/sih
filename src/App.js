@@ -47,12 +47,33 @@ function App() {
       </Routes>
 
       <div class="footer">
-        <div>FAQ</div>
-        <div>About us</div>
-        <div>Terms of Service</div>
-        <div>Privacy Policy</div>
-        <div>Contact</div>
-        <div>Help</div>
+        <div>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/1034/1034182.png"
+            style={{ width: "30px" }}
+          ></img>
+          <h5 style={{ display: "inline", margin: "3px", color: "black" }}>
+            1278349567
+          </h5>
+        </div>
+        <div>
+          <img
+            src="https://cdn-icons-png.flaticon.com/128/3179/3179068.png"
+            style={{ width: "30px" }}
+          ></img>
+          <h5 style={{ display: "inline", margin: "3px", color: "black" }}>
+            Mumbai,India
+          </h5>
+        </div>
+        <div>
+          <img
+            src="https://cdn-icons.flaticon.com/png/512/2099/premium/2099199.png?token=exp=1647631797~hmac=35f53057385074707f7a2f8081dfc5e6"
+            style={{ width: "30px" }}
+          ></img>
+          <h5 style={{ display: "inline", margin: "3px", color: "black" }}>
+            brucewayne@gmail.com
+          </h5>
+        </div>
       </div>
     </div>
   );
