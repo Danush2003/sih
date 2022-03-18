@@ -12,3 +12,9 @@
 .btn {
   text-decoration: none;
 }
+.filter {
+  mask-position: fixed;
+}
+.link {
+  color: white;
+}

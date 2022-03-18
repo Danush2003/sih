@@ -13,12 +13,16 @@ function scholarship() {
             <ul className=" list nav nav-pills">
               <li className="nav-item">
                 <Link className="nav-link" to="prenational">
-                  <h2>National Level Scholarships</h2>
+                  <h2 style={{ color: "#00cca3" }}>
+                    National Level Scholarships
+                  </h2>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link" to="preintern">
-                  <h2>International Level Scholarships</h2>
+                  <h2 style={{ color: "#00cca3" }}>
+                    International Level Scholarships
+                  </h2>
                 </Link>
               </li>
             </ul>

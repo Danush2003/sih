@@ -52,9 +52,9 @@ function preintern() {
     },
   ];
   return (
-    <div className="container">
+    <div className="container mt-4">
       <div className="row">
-        <div className=" filter col-sm-3">
+        <div className="filter col-sm-3">
           <h1>Filters:</h1>
           <hr />
           <h2>Exams:</h2>
@@ -106,9 +106,28 @@ function preintern() {
         </div>
         <div className="col-sm-9">
           {list.map((obj, index) => (
-            <div className="card card-body mt-5 mx-auto d-block w-100">
-              <h2>{obj.title}</h2>
-              <h4>{obj.authority}</h4>
+            <div
+              style={{ backgroundColor: "#6166B3" }}
+              className="card card-body mt-5 mx-auto d-block w-100"
+            >
+              <h2
+                style={{
+                  fontFamily: "serif",
+                  fontSize: "30px",
+                  color: "#b3ffff",
+                }}
+              >
+                {obj.title}
+              </h2>
+              <h4
+                style={{
+                  fontFamily: "serif",
+                  fontSize: "30px",
+                  color: "#D8D2CB",
+                }}
+              >
+                {obj.authority}
+              </h4>
               <button className="btn btn-warning d-flex mx-auto">
                 <a
                   style={{ textDecoration: "none" }}

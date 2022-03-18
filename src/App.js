@@ -10,26 +10,26 @@ import { Routes, Route, Link, Router, NavLink } from "react-router-dom";
 function App() {
   return (
     <div>
-      <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-4 mb-4">
-        <NavLink className="navbar-brand" to="">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark p-2 mb-2">
+        <NavLink className="navbar-brand mx-2" to="">
           <img
             src={Logo}
             alt=""
             className="logo"
-            width="300px"
-            height="50px"
+            width="200px"
+            height="30px"
           ></img>
         </NavLink>
         <div className="collapse navbar-collapse d-flex justify-content-end">
           <ul className="navbar-nav">
             <li className="nav-item mx-4">
-              <NavLink className="nav-link" to="" style={{ fontSize: 30 }}>
+              <NavLink className="nav-link" to="" style={{ fontSize: 20 }}>
                 Home
               </NavLink>
             </li>
 
             <li className="nav-item">
-              <NavLink className="nav-link py-1" to="" style={{ fontSize: 30 }}>
+              <NavLink className="nav-link py-1" to="" style={{ fontSize: 20 }}>
                 {" "}
                 <FaUserGraduate />{" "}
               </NavLink>

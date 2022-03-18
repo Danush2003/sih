@@ -9,15 +9,7 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            height="600px"
-            src="https://www.aspireabroadstudies.com/protected/images/news/1632483109gQkNiVR2FqucyfdScNsgkgpSlz1NXLmvlXVajXAlX1YWWhSxXrdGfnCHkasWAlOstjgIG5m0+RCrxFwwslCWQ5o18+QNuervXjLg39GeOpksQpqV0cL9VAML72l+VLx3P_7wuX5YT30z8W2USWFm9f5I2QEFoU134W7fg812I2pXBJvRrepUSFT_Q0Z1jLT2gfeTzVztDIMvin67v.jfif"
-            alt=""
-          />
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100"
-            height="600px"
+            height="400px"
             src="https://4f7fdkogwz-flywheel.netdna-ssl.com/sammamish/wp-content/uploads/sites/7/2020/05/GraduationHatsThrownIntoTheAir-1400x891-1.jpg"
             alt=""
           />
@@ -25,7 +17,15 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            height="600px"
+            height="400px"
+            src="https://www.aspireabroadstudies.com/protected/images/news/1632483109gQkNiVR2FqucyfdScNsgkgpSlz1NXLmvlXVajXAlX1YWWhSxXrdGfnCHkasWAlOstjgIG5m0+RCrxFwwslCWQ5o18+QNuervXjLg39GeOpksQpqV0cL9VAML72l+VLx3P_7wuX5YT30z8W2USWFm9f5I2QEFoU134W7fg812I2pXBJvRrepUSFT_Q0Z1jLT2gfeTzVztDIMvin67v.jfif"
+            alt=""
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            height="400px"
             src="https://wie.ieee.org/wp-content/uploads/2018/02/SCHOLARSHIPS.jpg"
             alt=""
           />
@@ -33,7 +33,7 @@ function Home() {
         <Carousel.Item>
           <img
             className="d-block w-100"
-            height="600px"
+            height="400px"
             src="https://cdn.uconnectlabs.com/wp-content/uploads/sites/28/2018/02/study-abroad.png"
             alt=""
           />
@@ -94,7 +94,11 @@ function Home() {
                 src="https://cdn-icons-png.flaticon.com/128/1086/1086933.png"
                 style={{ width: "20px", marginRight: "2px" }}
               ></img>
-              <Link className="nav-link" to="scholarship">
+              <Link
+                style={{ textDecoration: "none" }}
+                className="link"
+                to="scholarship"
+              >
                 Search
               </Link>
             </button>
@@ -121,7 +125,13 @@ function Home() {
                 src="https://cdn-icons-png.flaticon.com/128/1086/1086933.png"
                 style={{ width: "20px", marginRight: "2px" }}
               ></img>
-              Search
+              <Link
+                style={{ textDecoration: "none" }}
+                className="link"
+                to="scholarship"
+              >
+                Search
+              </Link>
             </button>
           </div>
         </div>
@@ -146,7 +156,13 @@ function Home() {
                 src="https://cdn-icons-png.flaticon.com/128/1086/1086933.png"
                 style={{ width: "20px", marginRight: "2px" }}
               ></img>
-              Search
+              <Link
+                style={{ textDecoration: "none" }}
+                className="link"
+                to="scholarship"
+              >
+                Search
+              </Link>
             </button>
           </div>
         </div>

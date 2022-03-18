@@ -57,7 +57,7 @@ function prenational() {
     },
   ];
   return (
-    <div className="container">
+    <div className="container mt-4">
       <div className="row">
         <div className=" filter col-sm-3">
           <h1>Filters:</h1>
@@ -65,7 +65,7 @@ function prenational() {
 
           <h2>Annual Income:</h2>
           <input
-            className="mt-2"
+            className="mt-2 me-2"
             type="radio"
             name="income"
             id="below 2"
@@ -75,17 +75,17 @@ function prenational() {
           </label>
           <br />
           <input
-            className="mt-2"
+            className="mt-2 me-2"
             type="radio"
             name="income"
             id="2 to 5"
           ></input>
-          <label className="mt-2" htmlFor="2 to 5">
+          <label className="mt-2 " htmlFor="2 to 5">
             between 2 lakhs and 5 lakhs
           </label>
           <br></br>
           <input
-            className="mt-2"
+            className="mt-2 me-2"
             type="radio"
             name="income"
             id="greater than 5"
@@ -124,9 +124,28 @@ function prenational() {
         </div>
         <div className="col-sm-9">
           {list.map((obj, index) => (
-            <div className="card card-body mt-5 mx-auto d-block w-100">
-              <h2>{obj.title}</h2>
-              <h4>{obj.authority}</h4>
+            <div
+              style={{ backgroundColor: "#6166B3" }}
+              className="card card-body mt-5 mx-auto d-block w-100"
+            >
+              <h2
+                style={{
+                  fontFamily: "serif",
+                  fontSize: "30px",
+                  color: "#b3ffff",
+                }}
+              >
+                {obj.title}
+              </h2>
+              <h4
+                style={{
+                  fontFamily: "serif",
+                  fontSize: "30px",
+                  color: "#D8D2CB",
+                }}
+              >
+                {obj.authority}
+              </h4>
               <button className="btn btn-warning d-flex mx-auto">
                 <a
                   style={{ textDecoration: "none" }}
