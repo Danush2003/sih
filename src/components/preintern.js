@@ -107,10 +107,14 @@ function preintern() {
         <div className="col-sm-9">
           {list.map((obj, index) => (
             <div className="card card-body mt-5 mx-auto d-block w-100">
-              <h1>{obj.title}</h1>
-              <h2>{obj.authority}</h2>
+              <h2>{obj.title}</h2>
+              <h4>{obj.authority}</h4>
               <button className="btn btn-warning d-flex mx-auto">
-                <a href={obj.lin} target="_blank">
+                <a
+                  style={{ textDecoration: "none" }}
+                  href={obj.lin}
+                  target="_blank"
+                >
                   Know More
                 </a>
               </button>

@@ -21,8 +21,8 @@ function prenational() {
       lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
-      title: "begum hazrat mahal national scholarship",
-      authority: "ministry of minority affairs,India",
+      title: "Begum Hazrat Mahal National Scholarship",
+      authority: "Ministry of minority affairs,India",
       lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
@@ -36,13 +36,13 @@ function prenational() {
       lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
-      title: "ntr vidyonnathi scheme scholarship",
+      title: "NTR vidyonnathi scheme scholarship",
       authority: "Government of Andhra Pradesh",
       lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
       title: "Pre-Matric Scholarship - MINORITY WELFARE DEPARTMENT",
-      authority: "minority welfare department,Karnataka",
+      authority: "Minority welfare department,Karnataka",
       lin: "https://www.isro.gov.in/capacity-building/yuvika-yuva-vigyani-karyakram-young-scientist-programme",
     },
     {
@@ -125,10 +125,14 @@ function prenational() {
         <div className="col-sm-9">
           {list.map((obj, index) => (
             <div className="card card-body mt-5 mx-auto d-block w-100">
-              <h1>{obj.title}</h1>
-              <h2>{obj.authority}</h2>
+              <h2>{obj.title}</h2>
+              <h4>{obj.authority}</h4>
               <button className="btn btn-warning d-flex mx-auto">
-                <a href={obj.lin} target="_blank">
+                <a
+                  style={{ textDecoration: "none" }}
+                  href={obj.lin}
+                  target="_blank"
+                >
                   Know More
                 </a>
               </button>
